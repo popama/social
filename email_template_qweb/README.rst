@@ -19,7 +19,7 @@ To use this module, you need to:
 * Select a QWeb view to be used to render the body field
 * Apart from QWeb's standard variables, you also have access to ``object`` and
   ``email_template``, which are browse records of the current object and the
-  email template in use, respectively.
+  email template in use, respectively. The ``ctx`` context dict of email template can be used in QWeb templates as ``email_template._context['key']``.
 
 .. image:: https://odoo-community.org/website/image/ir.attachment/5784_f2813bd/datas
     :alt: Try me on Runbot
